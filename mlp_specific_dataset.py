@@ -1,5 +1,5 @@
 import math
-
+print(" lab 5")
 import matplotlib
 import ssl
 

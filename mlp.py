@@ -40,7 +40,7 @@ for layer in range(MLP_model.n_layers_ - 1):
 
 text_7 = X_test[y_test == 7].to_numpy()
 inst = text_7[0]
-# print(inst.shape)
+print(inst.shape)
 dim = int(math.sqrt(inst.shape[0]))
 image = inst.reshape(dim, dim)
 # print(image.shape)
